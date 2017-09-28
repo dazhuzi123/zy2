@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-size:0.14rem;
+}
+ul, li {
+    list-style: none; 
+}
+html{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+    -webkit-touch-callout: none; 
+}
+input {
+    -webkit-appearance: none; 
+}
+html, body,.wrap{  
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.png);
+    background-size: 100% 100%;
+}  
+.top{
+    width: 100%;
+    height: 8%;
+    position: relative;
+    display: flex;
+    padding:10px 26%;
+}
+.top p{
+    color:#fff;
+}
+.top p span{
+    color:greenyellow;
+    font-size: 22px;
+}
+.top p .sp{
+    color: #43c0ff;
+}
+.main{
+    width: 100%;
+    height:45%;
+}
+.main .p1 img{
+    width:25%;
+    height: 15%;
+    border:8px solid #5875af;
+    border-radius: 50%;
+    position: absolute;
+    top:10%;
+    left: 20%;
+}
+.main .p2 img{
+    width:20%;
+    height: 12%;
+    border:8px solid #5875af;
+    border-radius: 50%;
+    position: absolute;
+    top:20%;
+    left:0%;
+}
+.main .p3 img{
+    width:27%;
+    height: 16%;
+    border:8px solid #5875af;
+    border-radius: 50%;
+    position: absolute;
+    top:30%;
+    left: 13%;
+}
+.main .con{
+    width: 50%;
+    height: 20%;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    color: #fff;
+}
+.main .con h1{
+    font-size: 24px;
+    margin-left: 110px;
+}
+.main .con a{
+    font-size: 16px;
+    margin-left: 60px;
+}
+.main .con p{
+    padding:2px;
+}
+.pic1{
+    width:100%;
+    height: 15%;
+    background: url(../img/b1.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+}
+.pic1 h1{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 34%;
+    top: 24%;
+}
+.pic1 p{
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 33%;
+    top: 50%;
+}
+.pic1 img{
+    width: 22%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    right: 6%;
+}
+.pic1 a{
+    color:#fff;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    font-weight: 500;
+}
+.pic2{
+    width:90%;
+    height: 15%;
+    background: url(../img/b3.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+}
+.pic2 h1{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 54%;
+    top: 25%;
+}
+.pic2 p{
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 52%;
+    top: 57%;
+}
+.pic2 img{
+    width: 25%;
+    height: 69%;
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+.pic2 a{
+    color:#fff;
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    font-weight: 500;
+}
+.pic3{
+    width:100%;
+    height: 15%;
+    background: url(../img/b1.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+}
+.pic3 h1{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 33%;
+    top: 32%;
+}
+.pic3 p{
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 32%;
+    top: 59%;
+    z-index: 1;
+}
+.pic3 img{
+    width: 21%;
+    height: 69%;
+    position: absolute;
+    top: 18%;
+    right: 6%;
+}
+.pic3 a{
+    color:#fff;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    font-weight: 500;
+}
